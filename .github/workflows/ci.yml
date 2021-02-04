@@ -15,3 +15,5 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           install-command: yarn --frozen-lockfile
+          start: npm run dev
+          wait-on: 'http://localhost:3000'
