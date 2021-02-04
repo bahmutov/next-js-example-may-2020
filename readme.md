@@ -1,4 +1,5 @@
-# Next.js Example
+# Next.js
+Example [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-4.7.0-brightgreen) ![next version](https://img.shields.io/badge/next-9.4.4-brightgreen)
 
 - Next.js
 - Jest
@@ -28,3 +29,10 @@ Then, to connect to the database using this new user, quit `psql` and reconnect:
 \q
 psql -U <user name> <database name>
 ```
+
+[ci image]: https://github.com/bahmutov/next-js-example-may-2020/workflows/ci/badge.svg?branch=master
+[ci url]: https://github.com/bahmutov/next-js-example-may-2020/actions
+[badges image]: https://github.com/bahmutov/next-js-example-may-2020/workflows/badges/badge.svg?branch=master
+[badges url]: https://github.com/bahmutov/next-js-example-may-2020/actions
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
