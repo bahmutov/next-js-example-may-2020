@@ -2,7 +2,7 @@
 
 context('Navigation', () => {
   it.skip('can navigate around the website', () => {
-    cy.visit('http://localhost:3000');
+    cy.visit('/');
 
     cy.get('[data-cy="header-link-about"]').click();
     cy.get('main:contains("About")');
@@ -12,21 +12,33 @@ context('Navigation', () => {
   });
 
   it('click without an explicit visible assertion', () => {
-    cy.visit('http://localhost:3000');
+    cy.visit('/');
+
+    cy.get('[data-cy="header-link-about"]').click();
+    cy.location('pathname').should('match', /\/about$/);
+  })
+
+  it('click without an explicit visible assertion (with reload)', () => {
+    cy.visit('/');
+
+    cy.get('[data-cy="header-link-about"]').click();
+    cy.location('pathname').should('match', /\/about$/);
+
+    cy.visit('/');
 
     cy.get('[data-cy="header-link-about"]').click();
     cy.location('pathname').should('match', /\/about$/);
   })
 
   it('click with an explicit visible assertion', () => {
-    cy.visit('http://localhost:3000');
+    cy.visit('/');
 
     cy.get('[data-cy="header-link-about"]').should('be.visible').click();
     cy.location('pathname').should('match', /\/about$/);
   })
 
   it('can navigate around the website (better)', () => {
-    cy.visit('http://localhost:3000');
+    cy.visit('/');
 
     cy.get('[data-cy="header-link-about"]').click();
     cy.location('pathname').should('match', /\/about$/);
@@ -38,7 +50,7 @@ context('Navigation', () => {
   });
 
   it('can navigate around the website (final)', () => {
-    cy.visit('http://localhost:3000');
+    cy.visit('/');
 
     cy.get('[data-cy="header-link-about"]').should('be.visible')
       .click();
