@@ -20,7 +20,7 @@
     "js-cookie": "^2.2.1",
     "ley": "^0.5.0",
     "next": "9.4.4",
-    "next-cookies": "^2.0.3",
+    "next-cookies": "2.0.3",
     "postgres": "^1.0.2",
     "query-string": "^6.13.1",
     "react": "16.13.1",
@@ -30,7 +30,7 @@
     "@types/jest": "^25.2.3",
     "@types/react": "^16.9.36",
     "babel-jest": "^26.0.1",
-    "cypress": "^6.4.0",
+    "cypress": "6.4.0",
     "jest": "^26.0.1",
     "typescript": "^3.9.5"
   },
