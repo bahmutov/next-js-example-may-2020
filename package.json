@@ -30,7 +30,7 @@
     "@types/jest": "^25.2.3",
     "@types/react": "^16.9.36",
     "babel-jest": "^26.0.1",
-    "cypress": "7.0.1",
+    "cypress": "7.1.0",
     "jest": "^26.0.1",
     "typescript": "^3.9.5"
   },
