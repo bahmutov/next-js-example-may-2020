@@ -1,5 +1,5 @@
 # Next.js
-Example [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-9.3.1-brightgreen) ![next version](https://img.shields.io/badge/next-10.2.3-brightgreen)
+Example [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-9.4.1-brightgreen) ![next version](https://img.shields.io/badge/next-10.2.3-brightgreen)
 
 - Next.js
 - Jest
